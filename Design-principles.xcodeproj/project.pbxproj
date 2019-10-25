@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		795FB4F6236307C500E96B6F /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 795FB4F5236307C500E96B6F /* Employee.m */; };
+		795FB4F9236308C400E96B6F /* FinancialApartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 795FB4F8236308C400E96B6F /* FinancialApartment.m */; };
+		795FB4FC2363090A00E96B6F /* HRApartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 795FB4FB2363090A00E96B6F /* HRApartment.m */; };
 		79ABD2142362FD2300130698 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2132362FD2300130698 /* Course.m */; };
 		79ABD2202362FF4500130698 /* TextCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD21F2362FF4500130698 /* TextCourse.m */; };
 		79ABD2252362FFBD00130698 /* VideoCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2222362FF8000130698 /* VideoCourse.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		795FB4F4236307C500E96B6F /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		795FB4F5236307C500E96B6F /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		795FB4F7236308C400E96B6F /* FinancialApartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialApartment.h; sourceTree = "<group>"; };
+		795FB4F8236308C400E96B6F /* FinancialApartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialApartment.m; sourceTree = "<group>"; };
+		795FB4FA2363090A00E96B6F /* HRApartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRApartment.h; sourceTree = "<group>"; };
+		795FB4FB2363090A00E96B6F /* HRApartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRApartment.m; sourceTree = "<group>"; };
 		79ABD2122362FD2300130698 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		79ABD2132362FD2300130698 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		79ABD21E2362FF4500130698 /* TextCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextCourse.h; sourceTree = "<group>"; };
@@ -141,6 +150,12 @@
 		79ABD2112362FCBE00130698 /* 单一职责原则 */ = {
 			isa = PBXGroup;
 			children = (
+				795FB4F4236307C500E96B6F /* Employee.h */,
+				795FB4F5236307C500E96B6F /* Employee.m */,
+				795FB4F7236308C400E96B6F /* FinancialApartment.h */,
+				795FB4F8236308C400E96B6F /* FinancialApartment.m */,
+				795FB4FA2363090A00E96B6F /* HRApartment.h */,
+				795FB4FB2363090A00E96B6F /* HRApartment.m */,
 			);
 			path = "单一职责原则";
 			sourceTree = "<group>";
@@ -341,7 +356,10 @@
 				79C8E64A2362FB5D00868518 /* ViewController.m in Sources */,
 				79ABD2202362FF4500130698 /* TextCourse.m in Sources */,
 				79ADBFB12363003E0046B91C /* AudioCourse.m in Sources */,
+				795FB4F6236307C500E96B6F /* Employee.m in Sources */,
+				795FB4FC2363090A00E96B6F /* HRApartment.m in Sources */,
 				79C8E6552362FB5E00868518 /* main.m in Sources */,
+				795FB4F9236308C400E96B6F /* FinancialApartment.m in Sources */,
 				79C8E6472362FB5D00868518 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
