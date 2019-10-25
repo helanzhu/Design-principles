@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79ABD2142362FD2300130698 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2132362FD2300130698 /* Course.m */; };
+		79ABD2202362FF4500130698 /* TextCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD21F2362FF4500130698 /* TextCourse.m */; };
+		79ABD2252362FFBD00130698 /* VideoCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2222362FF8000130698 /* VideoCourse.m */; };
+		79ADBFB12363003E0046B91C /* AudioCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADBFB02363003E0046B91C /* AudioCourse.m */; };
+		79ADBFB42363004B0046B91C /* LiveCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADBFB32363004B0046B91C /* LiveCourse.m */; };
 		79C8E6472362FB5D00868518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6462362FB5D00868518 /* AppDelegate.m */; };
 		79C8E64A2362FB5D00868518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6492362FB5D00868518 /* ViewController.m */; };
 		79C8E64D2362FB5D00868518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C8E64B2362FB5D00868518 /* Main.storyboard */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79ABD2122362FD2300130698 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		79ABD2132362FD2300130698 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		79ABD21E2362FF4500130698 /* TextCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextCourse.h; sourceTree = "<group>"; };
+		79ABD21F2362FF4500130698 /* TextCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextCourse.m; sourceTree = "<group>"; };
+		79ABD2212362FF8000130698 /* VideoCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCourse.h; sourceTree = "<group>"; };
+		79ABD2222362FF8000130698 /* VideoCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCourse.m; sourceTree = "<group>"; };
+		79ADBFAF2363003E0046B91C /* AudioCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioCourse.h; sourceTree = "<group>"; };
+		79ADBFB02363003E0046B91C /* AudioCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCourse.m; sourceTree = "<group>"; };
+		79ADBFB22363004B0046B91C /* LiveCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveCourse.h; sourceTree = "<group>"; };
+		79ADBFB32363004B0046B91C /* LiveCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCourse.m; sourceTree = "<group>"; };
 		79C8E6422362FB5D00868518 /* Design-principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-principles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C8E6452362FB5D00868518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79C8E6462362FB5D00868518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +93,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79ABD20C2362FCAB00130698 /* 里氏替换原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "里氏替换原则";
+			sourceTree = "<group>";
+		};
+		79ABD20D2362FCB100130698 /* 迪米特法则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "迪米特法则";
+			sourceTree = "<group>";
+		};
+		79ABD20E2362FCB500130698 /* 接口分离原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "接口分离原则";
+			sourceTree = "<group>";
+		};
+		79ABD20F2362FCB800130698 /* 依赖倒置原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		79ABD2102362FCBC00130698 /* 开闭原则  */ = {
+			isa = PBXGroup;
+			children = (
+				79ABD2122362FD2300130698 /* Course.h */,
+				79ABD2132362FD2300130698 /* Course.m */,
+				79ABD21E2362FF4500130698 /* TextCourse.h */,
+				79ABD21F2362FF4500130698 /* TextCourse.m */,
+				79ABD2212362FF8000130698 /* VideoCourse.h */,
+				79ABD2222362FF8000130698 /* VideoCourse.m */,
+				79ADBFAF2363003E0046B91C /* AudioCourse.h */,
+				79ADBFB02363003E0046B91C /* AudioCourse.m */,
+				79ADBFB22363004B0046B91C /* LiveCourse.h */,
+				79ADBFB32363004B0046B91C /* LiveCourse.m */,
+			);
+			path = "开闭原则 ";
+			sourceTree = "<group>";
+		};
+		79ABD2112362FCBE00130698 /* 单一职责原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "单一职责原则";
+			sourceTree = "<group>";
+		};
 		79C8E6392362FB5D00868518 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +168,12 @@
 		79C8E6442362FB5D00868518 /* Design-principles */ = {
 			isa = PBXGroup;
 			children = (
+				79ABD2112362FCBE00130698 /* 单一职责原则 */,
+				79ABD2102362FCBC00130698 /* 开闭原则  */,
+				79ABD20F2362FCB800130698 /* 依赖倒置原则 */,
+				79ABD20E2362FCB500130698 /* 接口分离原则 */,
+				79ABD20D2362FCB100130698 /* 迪米特法则 */,
+				79ABD20C2362FCAB00130698 /* 里氏替换原则 */,
 				79C8E6452362FB5D00868518 /* AppDelegate.h */,
 				79C8E6462362FB5D00868518 /* AppDelegate.m */,
 				79C8E6482362FB5D00868518 /* ViewController.h */,
@@ -262,7 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79ADBFB42363004B0046B91C /* LiveCourse.m in Sources */,
+				79ABD2252362FFBD00130698 /* VideoCourse.m in Sources */,
+				79ABD2142362FD2300130698 /* Course.m in Sources */,
 				79C8E64A2362FB5D00868518 /* ViewController.m in Sources */,
+				79ABD2202362FF4500130698 /* TextCourse.m in Sources */,
+				79ADBFB12363003E0046B91C /* AudioCourse.m in Sources */,
 				79C8E6552362FB5E00868518 /* main.m in Sources */,
 				79C8E6472362FB5D00868518 /* AppDelegate.m in Sources */,
 			);
