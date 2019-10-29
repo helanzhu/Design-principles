@@ -15,6 +15,12 @@
 		79ABD2252362FFBD00130698 /* VideoCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2222362FF8000130698 /* VideoCourse.m */; };
 		79ADBFB12363003E0046B91C /* AudioCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADBFB02363003E0046B91C /* AudioCourse.m */; };
 		79ADBFB42363004B0046B91C /* LiveCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADBFB32363004B0046B91C /* LiveCourse.m */; };
+		79B295E92368606200B3CD91 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295E82368606200B3CD91 /* People.m */; };
+		79B295EC2368607400B3CD91 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295EB2368607400B3CD91 /* Bird.m */; };
+		79B295EF2368608C00B3CD91 /* ChinesePeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295EE2368608C00B3CD91 /* ChinesePeople.m */; };
+		79B295F22368609600B3CD91 /* Parrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295F12368609600B3CD91 /* Parrot.m */; };
+		79B295F52368768900B3CD91 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295F42368768900B3CD91 /* Car.m */; };
+		79B295F8236876A900B3CD91 /* GasEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B295F7236876A900B3CD91 /* GasEngine.m */; };
 		79C8E6472362FB5D00868518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6462362FB5D00868518 /* AppDelegate.m */; };
 		79C8E64A2362FB5D00868518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6492362FB5D00868518 /* ViewController.m */; };
 		79C8E64D2362FB5D00868518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C8E64B2362FB5D00868518 /* Main.storyboard */; };
@@ -23,6 +29,10 @@
 		79C8E6552362FB5E00868518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6542362FB5E00868518 /* main.m */; };
 		79C8E65F2362FB5E00868518 /* Design_principlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E65E2362FB5E00868518 /* Design_principlesTests.m */; };
 		79C8E66A2362FB5E00868518 /* Design_principlesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8E6692362FB5E00868518 /* Design_principlesUITests.m */; };
+		79F699632368299D003C16F5 /* FrondEndDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F699622368299D003C16F5 /* FrondEndDeveloper.m */; };
+		79F69966236829AD003C16F5 /* BackEndDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F69965236829AD003C16F5 /* BackEndDeveloper.m */; };
+		79F69969236829CB003C16F5 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F69968236829CB003C16F5 /* Project.m */; };
+		79F6D25223687852007C55E1 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6D25123687852007C55E1 /* Client.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +69,21 @@
 		79ADBFB02363003E0046B91C /* AudioCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCourse.m; sourceTree = "<group>"; };
 		79ADBFB22363004B0046B91C /* LiveCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveCourse.h; sourceTree = "<group>"; };
 		79ADBFB32363004B0046B91C /* LiveCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCourse.m; sourceTree = "<group>"; };
+		79B295E423685F4C00B3CD91 /* IPeopleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPeopleProtocol.h; sourceTree = "<group>"; };
+		79B295E523685F5D00B3CD91 /* IAnimalProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAnimalProtocol.h; sourceTree = "<group>"; };
+		79B295E623685F6B00B3CD91 /* IBirdProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBirdProtocol.h; sourceTree = "<group>"; };
+		79B295E72368606200B3CD91 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		79B295E82368606200B3CD91 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		79B295EA2368607400B3CD91 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		79B295EB2368607400B3CD91 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		79B295ED2368608C00B3CD91 /* ChinesePeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinesePeople.h; sourceTree = "<group>"; };
+		79B295EE2368608C00B3CD91 /* ChinesePeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinesePeople.m; sourceTree = "<group>"; };
+		79B295F02368609600B3CD91 /* Parrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parrot.h; sourceTree = "<group>"; };
+		79B295F12368609600B3CD91 /* Parrot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parrot.m; sourceTree = "<group>"; };
+		79B295F32368768900B3CD91 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		79B295F42368768900B3CD91 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		79B295F6236876A900B3CD91 /* GasEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasEngine.h; sourceTree = "<group>"; };
+		79B295F7236876A900B3CD91 /* GasEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasEngine.m; sourceTree = "<group>"; };
 		79C8E6422362FB5D00868518 /* Design-principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-principles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C8E6452362FB5D00868518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79C8E6462362FB5D00868518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +100,15 @@
 		79C8E6652362FB5E00868518 /* Design-principlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design-principlesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C8E6692362FB5E00868518 /* Design_principlesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Design_principlesUITests.m; sourceTree = "<group>"; };
 		79C8E66B2362FB5E00868518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F699602368294D003C16F5 /* DeveloperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeveloperProtocol.h; sourceTree = "<group>"; };
+		79F699612368299D003C16F5 /* FrondEndDeveloper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrondEndDeveloper.h; sourceTree = "<group>"; };
+		79F699622368299D003C16F5 /* FrondEndDeveloper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrondEndDeveloper.m; sourceTree = "<group>"; };
+		79F69964236829AD003C16F5 /* BackEndDeveloper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackEndDeveloper.h; sourceTree = "<group>"; };
+		79F69965236829AD003C16F5 /* BackEndDeveloper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackEndDeveloper.m; sourceTree = "<group>"; };
+		79F69967236829CB003C16F5 /* Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		79F69968236829CB003C16F5 /* Project.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		79F6D25023687852007C55E1 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		79F6D25123687852007C55E1 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,34 +136,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79ABD20C2362FCAB00130698 /* 里氏替换原则 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "里氏替换原则";
-			sourceTree = "<group>";
-		};
-		79ABD20D2362FCB100130698 /* 迪米特法则 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "迪米特法则";
-			sourceTree = "<group>";
-		};
-		79ABD20E2362FCB500130698 /* 接口分离原则 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "接口分离原则";
-			sourceTree = "<group>";
-		};
-		79ABD20F2362FCB800130698 /* 依赖倒置原则 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "依赖倒置原则";
-			sourceTree = "<group>";
-		};
 		79ABD2102362FCBC00130698 /* 开闭原则  */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,10 +191,10 @@
 			children = (
 				79ABD2112362FCBE00130698 /* 单一职责原则 */,
 				79ABD2102362FCBC00130698 /* 开闭原则  */,
-				79ABD20F2362FCB800130698 /* 依赖倒置原则 */,
-				79ABD20E2362FCB500130698 /* 接口分离原则 */,
-				79ABD20D2362FCB100130698 /* 迪米特法则 */,
-				79ABD20C2362FCAB00130698 /* 里氏替换原则 */,
+				79F6995C236828AA003C16F5 /* 依赖倒置原则 */,
+				79F6995D236828C1003C16F5 /* 接口分离原则 */,
+				79F6995E236828CA003C16F5 /* 迪米特法则 */,
+				79F6995F236828D8003C16F5 /* 里氏替换原则 */,
 				79C8E6452362FB5D00868518 /* AppDelegate.h */,
 				79C8E6462362FB5D00868518 /* AppDelegate.m */,
 				79C8E6482362FB5D00868518 /* ViewController.h */,
@@ -218,6 +224,58 @@
 				79C8E66B2362FB5E00868518 /* Info.plist */,
 			);
 			path = "Design-principlesUITests";
+			sourceTree = "<group>";
+		};
+		79F6995C236828AA003C16F5 /* 依赖倒置原则 */ = {
+			isa = PBXGroup;
+			children = (
+				79F699602368294D003C16F5 /* DeveloperProtocol.h */,
+				79F699612368299D003C16F5 /* FrondEndDeveloper.h */,
+				79F699622368299D003C16F5 /* FrondEndDeveloper.m */,
+				79F69964236829AD003C16F5 /* BackEndDeveloper.h */,
+				79F69965236829AD003C16F5 /* BackEndDeveloper.m */,
+				79F69967236829CB003C16F5 /* Project.h */,
+				79F69968236829CB003C16F5 /* Project.m */,
+			);
+			path = "依赖倒置原则";
+			sourceTree = "<group>";
+		};
+		79F6995D236828C1003C16F5 /* 接口分离原则 */ = {
+			isa = PBXGroup;
+			children = (
+				79B295E423685F4C00B3CD91 /* IPeopleProtocol.h */,
+				79B295E523685F5D00B3CD91 /* IAnimalProtocol.h */,
+				79B295E623685F6B00B3CD91 /* IBirdProtocol.h */,
+				79B295E72368606200B3CD91 /* People.h */,
+				79B295E82368606200B3CD91 /* People.m */,
+				79B295EA2368607400B3CD91 /* Bird.h */,
+				79B295EB2368607400B3CD91 /* Bird.m */,
+				79B295ED2368608C00B3CD91 /* ChinesePeople.h */,
+				79B295EE2368608C00B3CD91 /* ChinesePeople.m */,
+				79B295F02368609600B3CD91 /* Parrot.h */,
+				79B295F12368609600B3CD91 /* Parrot.m */,
+			);
+			path = "接口分离原则";
+			sourceTree = "<group>";
+		};
+		79F6995E236828CA003C16F5 /* 迪米特法则 */ = {
+			isa = PBXGroup;
+			children = (
+				79B295F32368768900B3CD91 /* Car.h */,
+				79B295F42368768900B3CD91 /* Car.m */,
+				79B295F6236876A900B3CD91 /* GasEngine.h */,
+				79B295F7236876A900B3CD91 /* GasEngine.m */,
+				79F6D25023687852007C55E1 /* Client.h */,
+				79F6D25123687852007C55E1 /* Client.m */,
+			);
+			path = "迪米特法则";
+			sourceTree = "<group>";
+		};
+		79F6995F236828D8003C16F5 /* 里氏替换原则 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "里氏替换原则";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,17 +408,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F699632368299D003C16F5 /* FrondEndDeveloper.m in Sources */,
 				79ADBFB42363004B0046B91C /* LiveCourse.m in Sources */,
+				79B295EC2368607400B3CD91 /* Bird.m in Sources */,
+				79B295F52368768900B3CD91 /* Car.m in Sources */,
 				79ABD2252362FFBD00130698 /* VideoCourse.m in Sources */,
 				79ABD2142362FD2300130698 /* Course.m in Sources */,
 				79C8E64A2362FB5D00868518 /* ViewController.m in Sources */,
+				79F69969236829CB003C16F5 /* Project.m in Sources */,
 				79ABD2202362FF4500130698 /* TextCourse.m in Sources */,
 				79ADBFB12363003E0046B91C /* AudioCourse.m in Sources */,
+				79B295F22368609600B3CD91 /* Parrot.m in Sources */,
 				795FB4F6236307C500E96B6F /* Employee.m in Sources */,
+				79B295EF2368608C00B3CD91 /* ChinesePeople.m in Sources */,
 				795FB4FC2363090A00E96B6F /* HRApartment.m in Sources */,
 				79C8E6552362FB5E00868518 /* main.m in Sources */,
 				795FB4F9236308C400E96B6F /* FinancialApartment.m in Sources */,
+				79B295E92368606200B3CD91 /* People.m in Sources */,
 				79C8E6472362FB5D00868518 /* AppDelegate.m in Sources */,
+				79F69966236829AD003C16F5 /* BackEndDeveloper.m in Sources */,
+				79B295F8236876A900B3CD91 /* GasEngine.m in Sources */,
+				79F6D25223687852007C55E1 /* Client.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

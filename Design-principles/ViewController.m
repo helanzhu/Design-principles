@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "People.h"
+#import "ChinesePeople.h"
 
 @interface ViewController ()
 
@@ -14,9 +16,25 @@
 
 @implementation ViewController
 
+
+void ispTest(){
+    ChinesePeople *chinesePeople = [[ChinesePeople alloc]init];
+    People *people = [[People alloc]init];
+    
+    chinesePeople.animalDelegate = people;
+    chinesePeople.peopleDelegate = people;
+    
+    [chinesePeople work];
+    [chinesePeople eat];
+    [chinesePeople walk];
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//   接口隔离
+//    ispTest();
 }
 
 

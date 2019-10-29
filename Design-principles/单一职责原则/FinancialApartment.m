@@ -12,7 +12,6 @@
 
 //计算薪水
 - (double)calculateSalary:(Employee *)employee{
-    
     return 2.1f;
 }
 
